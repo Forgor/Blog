@@ -1,0 +1,8 @@
+
+
+SendLine "select produktions_nr "
+SendLine "from =sflr00-tab "
+SendLine "where produktions_nr in ( "
+SendLine "select produktions_nr "
+SendLine "from =sflr82-tab "
+SendLine "where SPERR_GRUND = "DUMMY PNR") browse access;";

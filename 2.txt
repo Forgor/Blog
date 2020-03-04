@@ -1,0 +1,10 @@
+
+
+
+select PRODUKTIONS_NR, BAUMUSTER, AUFTRAGSFORTSCHRITT, FAHRGESTELL_NR
+from =sflr00-tab browse Access
+where AUFTRAGSFORTSCHRITT >=141
+And FAHRGESTELL_NR = ' '
+And (produktions_nr between 0800000 And 6999999
+Or produktions_nr between 10000 And 19999);
+

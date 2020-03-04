@@ -1,0 +1,1415 @@
+Django==2.0
+pytz==2019.3
+
+
+{% block blog_list_title　%｝博客列表--共计{{ blogs|length }}篇博客{% endblock %}
+
+ {% for page_num in page_of_blogs.paginator.page_range %}
+
+ 1 2 3 4 5 6 7 
+             to
+
+
+++双向
+VAEV<->VIEV  VSDB->PLUS 申请热式标记  成功
+AKFV<->EKFV  PLC -> PLUS  申请零件号码  成功
+APSV<->EPSV  PLC-> PLUS  查询托盘状态   成功
+ARFV<->IRFV  PLC ->PLUS  申请RFID信息 成功
+ASIV<->VSIF    Engine 用质量相关    成功
+ATCV<->ETCV  EMS ->PLUS  EMS 向PLUS申请订单信息  成功
+AVPB<->EVPB  PLC -> PLUS  PLC 申请VPD信息  成功
+AVPD<->EVPD  PLC -> PLUS  PLC 申请VPD信息  成功
+++单向
+IL*D  VSDB相关  测试IMA数据时测试完成  成功
+IFEV  发动机用INQA报文  成功
+ENOV     EMS -> PLUS  EMS 答复订单信息  成功
+
+
+open $PPM01
+st
+open $PPM02
+st
+open $PPATM
+st
+open $PPATM
+st
+open $PPATO
+st
+open $PPATO
+st
+open $PPATQ
+st
+open $PPATQ
+st
+open $PPATR
+st
+open $PPATR
+st
+
+
+
+TCP/IP-UDP/IP-Switch opend
+0  #SWITCH  \T10421.$ZTC0
+
+
+
+
+
+
+0052051979
+
+
+
+
+open $PPM01
+st
+open $PPM02
+st
+open $PPATM
+st
+open $PPATM
+st
+open $PPATO
+st
+open $PPATO
+st
+open $PPATQ
+st
+open $PPATQ
+st
+open $PPATR
+st
+open $PPATR
+st
+open $PPATS
+st
+open $PPATS
+st
+open $PPATT
+st
+open $PPATT
+st
+open $PPATV
+st
+open $PPATV
+st
+open $PPATX
+st
+open $PPATX
+st
+open $PPATY
+st
+open $PPATY
+st
+open $PPATZ
+st
+open $PPATZ
+st
+open $PPAUA
+st
+open $PPAUA
+st
+open $PPAUB
+st
+open $PPAUB
+st
+open $PPAUD
+st
+open $PPAUD
+st
+open $PPAUE
+st
+open $PPAUE
+st
+open $PPAUF
+st
+open $PPAUF
+st
+open $PPBDD
+st
+open $PPBFJ
+st
+open $PPBFJ
+st
+open $PPAAA
+st
+open $PPAAA
+st
+open $PPAAB
+st
+open $PPAAB
+st
+open $PPAAC
+st
+open $PPAAC
+st
+open $PPAAD
+st
+open $PPAAD
+st
+open $PPAAE
+st
+open $PPAAE
+st
+open $PPAAF
+st
+open $PPAAF
+st
+open $PPAAG
+st
+open $PPAAG
+st
+open $PPAAH
+st
+open $PPAAH
+st
+open $PPAAI
+st
+open $PPAAI
+st
+open $PPAAJ
+st
+open $PPAAJ
+st
+open $PPAAL
+st
+open $PPAAL
+st
+open $PPAAM
+st
+open $PPAAM
+st
+open $PPAAN
+st
+open $PPAAN
+st
+open $PPAAO
+st
+open $PPAAO
+st
+open $PPAAP
+st
+open $PPAAP
+st
+open $PPAAQ
+st
+open $PPAAQ
+st
+open $PPAAS
+st
+open $PPAAS
+st
+open $PPAAT
+st
+open $PPAAT
+st
+open $PPAAU
+st
+open $PPAAU
+st
+open $PPAAV
+st
+open $PPAAV
+st
+open $PPAAW
+st
+open $PPAAW
+st
+open $PPAAX
+st
+open $PPAAX
+st
+open $PPAAY
+st
+open $PPAAY
+st
+open $PPAAZ
+st
+open $PPAAZ
+st
+open $PPABA
+st
+open $PPABA
+st
+open $PPABB
+st
+open $PPABB
+st
+open $PPABC
+st
+open $PPABC
+st
+open $PPABD
+st
+open $PPABD
+st
+open $PPABE
+st
+open $PPABE
+st
+open $PPABF
+st
+open $PPABF
+st
+open $PPABG
+st
+open $PPABG
+st
+open $PPABH
+st
+open $PPABH
+st
+open $PPABI
+st
+open $PPABI
+st
+open $PPABJ
+st
+open $PPABJ
+st
+open $PPABK
+st
+open $PPABK
+st
+open $PPABL
+st
+open $PPABL
+st
+open $PPABM
+st
+open $PPABM
+st
+open $PPABN
+st
+open $PPABN
+st
+open $PPABO
+st
+open $PPABO
+st
+open $PPABP
+st
+open $PPABP
+st
+open $PPABQ
+st
+open $PPABQ
+st
+open $PPABR
+st
+open $PPABR
+st
+
+
+select produktions_nr
+from =sflr82-tab
+where SPERR_GRUND = 'DUMMY PNR' browse access;
+
+
+
+
+
+\T05037.$T24908.PP01x
+
+\T05037.$T24908.PP01E
+
+$T13101.PP01E055
+
+
+RESET TERM
+SET TERM AUTORESTART 2
+SET TERM BREAK OFF
+SET TERM DIAGNOSTIC ON
+SET TERM ECHO ON
+SET TERM EXCLUSIVE OFF
+SET TERM FILE \T05037.$PPBL0.#SWITCH.INTSW001
+SET TERM INITIAL S69R20EL
+SET TERM INSPECT OFF
+SET TERM IOPROTOCOL 0
+SET TERM MAXINPUTMSGS 5
+SET TERM TCP TCP-KOM-01
+SET TERM TMF ON
+SET TERM TRAILINGBLANKS ON
+SET TERM TYPE INTELLIGENT:0
+ADD TERM A008SPS-PRS01-S
+
+
+volume PP01FNI
+
+ PP01OFI
+
+obey $T24908.PP01FNI.OPPBL0LD
+obey $T24908.PP01OPI.OPPBL0IN
+
+
+
+
+
+
+open $PPABS
+st
+open $PPABS
+st
+open $PPABT
+st
+open $PPABT
+st
+open $PPABU
+st
+open $PPABU
+st
+open $PPABV
+st
+open $PPABV
+st
+open $PPABW
+st
+open $PPABW
+st
+open $PPABX
+st
+open $PPABX
+st
+open $PPABY
+st
+open $PPABY
+st
+open $PPABZ
+st
+open $PPABZ
+st
+open $PPACA
+st
+open $PPACA
+st
+open $PPACB
+st
+open $PPACB
+st
+open $PPACC
+st
+open $PPACC
+st
+open $PPACD
+st
+open $PPACD
+st
+open $PPACE
+st
+open $PPACE
+st
+open $PPACF
+st
+open $PPACF
+st
+open $PPACG
+st
+open $PPACG
+st
+open $PPACH
+st
+open $PPACH
+st
+open $PPACJ
+st
+open $PPACJ
+st
+open $PPACL
+st
+open $PPACL
+st
+open $PPACN
+st
+open $PPACN
+st
+open $PPACQ
+st
+open $PPACQ
+st
+open $PPACR
+st
+open $PPACR
+st
+open $PPACS
+st
+open $PPACS
+st
+open $PPACT
+st
+open $PPACT
+st
+open $PPACU
+st
+open $PPACU
+st
+open $PPACW
+st
+open $PPACW
+st
+open $PPACX
+st
+open $PPACX
+st
+open $PPACZ
+st
+open $PPACZ
+st
+open $PPADB
+st
+open $PPADB
+st
+open $PPADF
+st
+open $PPADF
+st
+open $PPADH
+st
+open $PPADH
+st
+open $PPADJ
+st
+open $PPADJ
+st
+open $PPADN
+st
+open $PPADN
+st
+open $PPADO
+st
+open $PPADO
+st
+open $PPADP
+st
+open $PPADP
+st
+open $PPADR
+st
+open $PPADR
+st
+open $PPAEB
+st
+open $PPAEB
+st
+open $PPAEH
+st
+open $PPAEH
+st
+open $PPAEJ
+st
+open $PPAEJ
+st
+open $PPAEK
+st
+open $PPAEK
+st
+open $PPAEO
+st
+open $PPAEO
+st
+open $PPAEP
+st
+open $PPAEP
+st
+open $PPAER
+st
+open $PPAER
+st
+open $PPAET
+st
+open $PPAET
+st
+open $PPAEU
+st
+open $PPAEU
+st
+open $PPAEV
+st
+open $PPAEV
+st
+open $PPAEW
+st
+open $PPAEW
+st
+open $PPAEX
+st
+open $PPAEX
+st
+open $PPAFB
+st
+open $PPAFB
+st
+open $PPAFL
+st
+open $PPAFL
+st
+open $PPAFM
+st
+open $PPAFM
+st
+open $PPAFN
+st
+open $PPAFN
+st
+open $PPAFO
+st
+open $PPAFO
+st
+open $PPAFQ
+st
+open $PPAFQ
+st
+open $PPAFR
+st
+open $PPAFR
+st
+open $PPAFS
+st
+open $PPAFS
+st
+open $PPAFT
+st
+open $PPAFT
+st
+open $PPAFU
+st
+open $PPAFU
+st
+open $PPAFW
+st
+open $PPAFW
+st
+open $PPAFY
+st
+open $PPAFY
+st
+open $PPAFZ
+st
+open $PPAFZ
+st
+open $PPAGA
+st
+open $PPAGA
+st
+open $PPAGB
+st
+open $PPAGB
+st
+open $PPAGC
+st
+open $PPAGC
+st
+open $PPAGE
+st
+open $PPAGE
+st
+open $PPAGG
+st
+open $PPAGG
+st
+open $PPAHD
+st
+open $PPAHD
+st
+open $PPAJG
+st
+open $PPAJG
+st
+open $PPAJP
+st
+open $PPAJP
+st
+open $PPALO
+st
+open $PPALO
+st
+open $PPAMK
+st
+open $PPAMK
+st
+open $PPAMN
+st
+open $PPAMN
+st
+open $PPAMO
+st
+open $PPAMO
+st
+open $PPAMQ
+st
+open $PPAMQ
+st
+open $PPAMV
+st
+open $PPAMV
+st
+open $PPAMY
+st
+open $PPAMY
+st
+open $PPANF
+st
+open $PPANF
+st
+open $PPAOF
+st
+open $PPAOF
+st
+open $PPAOI
+st
+open $PPAOI
+st
+open $PPAOT
+st
+open $PPAOT
+st
+open $PPAPD
+st
+open $PPAPD
+st
+open $PPAPJ
+st
+open $PPAPJ
+st
+open $PPAPO
+st
+open $PPAPO
+st
+open $PPAPP
+st
+open $PPAPP
+st
+open $PPAQE
+st
+open $PPAQE
+st
+open $PPAQG
+st
+open $PPAQG
+st
+open $PPAQH
+st
+open $PPAQH
+st
+open $PPAQT
+st
+open $PPAQT
+st
+open $PPARH
+st
+open $PPARH
+st
+open $PPARP
+st
+open $PPARP
+st
+open $PPARQ
+st
+open $PPARQ
+st
+open $PPARS
+st
+open $PPARS
+st
+open $PPASB
+st
+open $PPASB
+st
+open $PPASE
+st
+open $PPASE
+st
+open $PPASL
+st
+open $PPASL
+st
+open $PPASY
+st
+open $PPASY
+st
+open $PPASZ
+st
+open $PPASZ
+st
+open $PPATA
+st
+open $PPATA
+st
+open $PPATC
+st
+open $PPATC
+st
+open $PPATH
+st
+open $PPATH
+st
+open $PPAUG
+st
+open $PPAUG
+st
+open $PPAUQ
+st
+open $PPAUQ
+st
+open $PPAUW
+st
+open $PPAUW
+st
+open $PPAUX
+st
+open $PPAUX
+st
+open $PPAUY
+st
+open $PPAUY
+st
+open $PPAUZ
+st
+open $PPAUZ
+st
+open $PPAVG
+st
+open $PPAVG
+st
+open $PPAVH
+st
+open $PPAVH
+st
+open $PPAVI
+st
+open $PPAVI
+st
+open $PPAVJ
+st
+open $PPAVJ
+st
+open $PPAVN
+st
+open $PPAVN
+st
+open $PPAVP
+st
+open $PPAVP
+st
+open $PPAVR
+st
+open $PPAVR
+st
+open $PPAVW
+st
+open $PPAVW
+st
+open $PPAWE
+st
+open $PPAWE
+st
+open $PPAWP
+st
+open $PPAWP
+st
+open $PPAWS
+st
+open $PPAWS
+st
+open $PPAXD
+st
+open $PPAXD
+st
+open $PPAZZ
+st
+open $PPAZZ
+st
+open $PPA30
+st
+open $PPA34
+st
+open $PPA31
+st
+open $PPA36
+st
+open $PPAL0
+st
+open $PPBA1
+st
+open $PPBA8
+st
+open $PPBA9
+st
+open $PPBB8
+st
+open $PPBB4
+st
+open $PPAZ6
+st
+open $PPB19
+st
+open $PPB32
+st
+open $PPB46
+st
+open $PPB61
+st
+open $PPB76
+st
+open $PPB91
+st
+open $PPAQ4
+st
+open $PPAY9
+st
+open $PPAY9
+st
+open $PPB01
+st
+open $PPB45
+st
+open $PPA10
+st
+open $PPA51
+st
+open $PPA13
+st
+open $PPA14
+st
+open $PPA15
+st
+open $PPA16
+st
+open $PPA17
+st
+open $PPA18
+st
+open $PPA19
+st
+open $PPA20
+st
+open $PPA22
+st
+open $PPA23
+st
+open $PPA24
+st
+open $PPA25
+st
+open $PPA26
+st
+open $PPA27
+st
+open $PPA29
+st
+open $PPA32
+st
+open $PPA33
+st
+open $PPA35
+st
+open $PPA37
+st
+open $PPA38
+st
+open $PPA39
+st
+open $PPA40
+st
+open $PPA41
+st
+open $PPA42
+st
+open $PPA43
+st
+open $PPA45
+st
+open $PPA46
+st
+open $PPA47
+st
+open $PPA01
+st
+open $PPA03
+st
+open $PPA04
+st
+open $PPA05
+st
+open $PPA06
+st
+open $PPA07
+st
+open $PPA09
+st
+open $PPBC7
+st
+open $PPAF6
+st
+open $PPAG0
+st
+open $PPAG5
+st
+open $PPAM8
+st
+open $PPAN2
+st
+open $PPAN6
+st
+open $PPAN7
+st
+open $PPB96
+st
+open $PPBA5
+st
+open $PPA44
+st
+open $PPA02
+st
+open $PPA28
+st
+open $PPB04
+st
+open $PPA00
+st
+open $PPBB0
+st
+open $PPBC3
+st
+open $PPBD2
+st
+open $PPBB1
+st
+open $PPBB2
+st
+open $PPBB6
+st
+open $PPBD4
+st
+open $PPBD6
+st
+open $PPBD6
+st
+open $PPBHQ
+st
+open $PPBJY
+st
+open $PPBJY
+st
+open $PPBJY
+st
+open $PPBHX
+st
+open $PPBHX
+st
+open $PPBHX
+st
+open $PPRB2
+st
+open $PPRB3
+st
+open $PPRB4
+st
+open $PPRB5
+st
+open $PPRB6
+st
+open $PPRFU
+st
+open $PPRFV
+st
+open $PPR64
+st
+open $PPR24
+st
+open $PPR87
+st
+open $PPR72
+st
+open $PPR74
+st
+open $PPRG4
+st
+open $PPRFX
+st
+open $PPRB9
+st
+open $PPRC0
+st
+open $PPRC3
+st
+open $PPMAM
+st
+open $PPM85
+st
+open $PPM84
+st
+open $PPM84
+st
+open $PPM62
+st
+open $PPM61
+st
+open $PPM63
+st
+open $PPM64
+st
+open $PPM58
+st
+open $PPM58
+st
+open $PPM59
+st
+open $PPM59
+st
+open $PPM60
+st
+open $PPMB1
+st
+open $PPMAC
+st
+open $PPMA4
+st
+open $PPMDJ
+st
+open $PPMAT
+st
+open $PPMAU
+st
+open $PPMB8
+st
+open $PPMEG
+st
+open $PPMEM
+st
+open $PPMES
+st
+open $PPMEV
+st
+open $PPMEZ
+st
+open $PPMTU
+st
+open $PPMTV
+st
+open $PPMUH
+st
+open $PPMBY
+st
+open $PPMBZ
+st
+open $PPMC2
+st
+open $PPMC6
+st
+open $PPMC7
+st
+open $PPMCC
+st
+open $PPMCD
+st
+open $PPMCI
+st
+open $PPMCK
+st
+open $PPMCX
+st
+open $PPMD8
+st
+open $PPMD9
+st
+open $PPMDA
+st
+open $PPMDB
+st
+open $PPMDD
+st
+open $PPMDF
+st
+open $PPMDP
+st
+open $PPMDU
+st
+open $PPME0
+st
+open $PPME1
+st
+open $PPMFB
+st
+open $PPMP7
+st
+open $PPMQC
+st
+open $PPM07
+st
+open $PPMQ4
+st
+open $PPMQ5
+st
+open $PPMQD
+st
+open $PPMQE
+st
+open $PPMQF
+st
+open $PPMQH
+st
+open $PPMQI
+st
+open $PPMQM
+st
+open $PPMQN
+st
+open $PPMQU
+st
+open $PPMRF
+st
+
+
+
+
+
+
+
+
+
+open $PPMRG
+st
+open $PPMSL
+st
+open $PPMTI
+st
+open $PPMTJ
+st
+open $PPMTL
+st
+open $PPMTM
+st
+open $PPMO7
+st
+open $PPME8
+st
+open $PPM03
+st
+open $PPMT9
+st
+open $PPMTA
+st
+open $PPM04
+st
+open $PPMF2
+st
+open $PPMG1
+st
+open $PPMG3
+st
+open $PPMG4
+st
+open $PPMG7
+st
+open $PPMG9
+st
+open $PPMH8
+st
+open $PPMH9
+st
+open $PPMI0
+st
+open $PPMI1
+st
+open $PPMI2
+st
+open $PPMI3
+st
+open $PPMJ0
+st
+open $PPMJ2
+st
+open $PPMJ4
+st
+open $PPMJ5
+st
+open $PPMJ6
+st
+open $PPMK0
+st
+open $PPMK5
+st
+open $PPMK7
+st
+open $PPML0
+st
+open $PPMM7
+st
+open $PPMM8
+st
+open $PPMN1
+st
+open $PPMN4
+st
+open $PPMN5
+st
+open $PPMN7
+st
+open $PPMTB
+st
+open $PPMTC
+st
+open $PPMV7
+st
+open $PPMVC
+st
+open $PPMVE
+st
+open $PPMVI
+st
+open $PPMW2
+st
+open $PPMXA
+st
+open $PPMXK
+st
+open $PPMXX
+st
+open $PPMZ8
+st
+open $PPMZE
+st
+open $PPM00
+st
+open $PPR01
+st
+open $PPR05
+st
+open $PPR02
+st
+open $PPR03
+st
+open $PPR04
+st
+open $PPM57
+st
+open $PPM96
+st
+open $PPV93
+st
+open $PPV94
+st
+open $PPV95
+st
+open $PPM74
+st
+open $PPM75
+st
+open $PPM76
+st
+open $PPM77
+st
+open $PPM78
+st
+open $PPM79
+st
+open $PPM81
+st
+open $PPVTT
+st
+open $PPV11
+st
+open $PPV52
+st
+open $PPV10
+st
+open $PPV69
+st
+open $PPV01
+st
+open $PPV02
+st
+open $PPV03
+st
+open $PPV04
+st
+open $PPV05
+st
+open $PPV06
+st
+open $PPV07
+st
+open $PPV08
+st
+open $PPV09
+st
+open $PPV13
+st
+open $PPV14
+st
+open $PPV15
+st
+open $PPV17
+st
+open $PPV18
+st
+open $PPV19
+st
+open $PPV20
+st
+open $PPV21
+st
+open $PPV22
+st
+open $PPV23
+st
+open $PPV24
+st
+open $PPV25
+st
+open $PPV26
+st
+open $PPV27
+st
+open $PPV28
+st
+open $PPV29
+st
+open $PPV30
+st
+open $PPV31
+st
+open $PPV32
+st
+open $PPV33
+st
+open $PPV34
+st
+open $PPV35
+st
+open $PPV36
+st
+open $PPV37
+st
+open $PPV38
+st
+open $PPV39
+st
+open $PPV40
+st
+open $PPV41
+st
+open $PPV51
+st
+open $PPV53
+st
+open $PPV54
+st
+open $PPV55
+st
+open $PPV85
+st
+open $PPV86
+st
+open $PPV87
+st
+open $PPV88
+st
+open $PPV89
+st
+open $PPV90
+st
+open $PPV91
+st
+
+
